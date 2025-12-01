@@ -1,6 +1,6 @@
 # Gerador de Hash
 
-Autor: Patirck Noronha
+Autor: Patrick Noronha
 
 Implementação em C# focada em arquitetura limpa para geração de hashes (MD5, SHA1, SHA256, SHA384 e SHA512) utilizando `System.Security.Cryptography`. O projeto é composto por uma biblioteca reutilizável (`Hashing`) e uma interface de linha de comando (`Hashing.Console`).
 
@@ -74,3 +74,4 @@ dotnet test Hashing.Tests\Hashing.Tests.csproj
 ## Próximos passos
 1. Implementar o projeto de testes unitários com vetores conhecidos para cada algoritmo.
 2. Adicionar suporte a novos algoritmos ou formatos de saída (ex.: Base64) caso necessário.
+
